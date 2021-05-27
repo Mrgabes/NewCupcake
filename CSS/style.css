@@ -1,5 +1,5 @@
 body {
-  background-color: #72efdd;
+  background-color: #adb5bd;
 }
 h1 {
   text-align:center;
@@ -17,7 +17,8 @@ img {display: block;
   width: 30%;
 }
 .flavor {
-  text-align: center;
+   text-align: center;
+   list-style-position: inside;
   border: solid black  3px;
   border-radius: 50px;
   background-color:#48bfe3;
@@ -37,7 +38,7 @@ button {
 .flexbox-container {
   display:flex;
   padding: auto;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 .flexbox-item {
@@ -54,7 +55,7 @@ button {
   border: solid  1px   black;
   margin-right: 900px;
   margin-bottom: 50px;
-  padding: 5px;
+  padding: 5px 0px 5px 0px;
    background-color: #ffc8dd;
    text-align: center;
    border-radius: 10px 100px / 120px;
